@@ -10,7 +10,7 @@ conn = psycopg2.connect(
 
 if connection:
     print("connection is set...")
-else:
+else: 
     print("connection is not set...")
 
 
